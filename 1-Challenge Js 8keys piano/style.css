@@ -10,6 +10,7 @@ body{
   height: 100vh;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .Piano{
   border-radius: 30px;
@@ -25,6 +26,11 @@ body{
   height: 40%;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  color: white;
 }
 .keys{
   height: 60%;
@@ -99,5 +105,29 @@ height: 100%;
 background-color: #F012BE;
 color: white;
 height: 100%;
+}
 
+.K-txt{
+  color: red;
+}
+.E-txt{
+  color: orange;
+}
+.Y-txt{
+  color: yellow;
+}
+.P-txt{
+  color: green;
+}
+.I-txt{
+  color: #0074D9 ;
+}
+.A-txt{
+  color: indigo;
+}
+.N-txt{
+  color:#B10DC9;
+}
+.O-txt{
+  color: #F012BE;
 }
