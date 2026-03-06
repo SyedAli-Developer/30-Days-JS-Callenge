@@ -54,7 +54,6 @@ body{
 }
 .key span{
   font-size: 1rem;
-  /* background-color: rgb(255, 100, 0); */
   color: black;
   padding: 10px;
   border-radius: 100px;
