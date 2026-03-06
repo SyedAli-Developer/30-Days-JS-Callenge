@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Js Drum Kit</title>
+    <title>Js 8 Keys Piano</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./images/favicon.png" />
 </head>
+
 <body>
     <!-- Keyboard Buttons -->
-     <div class="Piano">
+    <div class="Piano">
         <div class="result">
 
         </div>
         <div class="keys">
 
-        <div data-key="" class="key">
-            <kbd>A</kbd>
+            <div data-key="65" class="key " id="a-btn">
+                <kbd>A</kbd>
+                <span>C4</span>
+            </div>
+            <div data-key="83" class="key" id="s-btn">
+                <kbd>S</kbd>
+                <span>D4</span>
+            </div>
+            <div data-key="68" class="key" id="d-btn">
+                <kbd>D</kbd>
+                <span>E4</span>
+            </div>
+            <div data-key="70" class="key" id="f-btn">
+                <kbd>F</kbd>
+                <span>F4</span>
+            </div>
+            <div data-key="74" class="key" id="j-btn">
+                <kbd>J</kbd>
+                <span>G4</span>
+            </div>
+            <div data-key="75" class="key" id="k-btn">
+                <kbd>K</kbd>
+                <span>A4</span>
+            </div>
+            <div data-key="76" class="key" id="l-btn">
+                <kbd>L</kbd>
+                <span>B4</span>
+            </div>
+            <div data-key="186" class="key" id="colon-btn">
+                <kbd>;</kbd>
+                <span>C5</span>
+            </div>
         </div>
-        <div data-key="0" class="key">
-            <kbd>S</kbd>
-        </div>
-        <div data-key="0" class="key">
-            <kbd>D</kbd>
-        </div>
-        <div data-key="0" class="key">
-            <kbd>F</kbd>
-        </div>
-        <div data-key="0" class="key">
-            <kbd>J</kbd>
-        </div>
-        <div data-key="0" class="key">
-            <kbd>K</kbd>
-        </div>
-        <div data-key="0" class="key">
-            <kbd>L</kbd>
-        </div>
-        <div data-key="0" class="key">
-            <kbd>;</kbd>
-        </div>
-        </div>
-     </div>
+    </div>
+    <audio data-key="65" src="./audio/C4.wav"></audio>
+    <audio data-key="83" src="./audio/D4.wav"></audio>
+    <audio data-key="68" src="./audio/E4.wav"></audio>
+    <audio data-key="70" src="./audio/F4.wav"></audio>
+    <audio data-key="74" src="./audio/G4.wav"></audio>
+    <audio data-key="75" src="./audio/A4.wav"></audio>
+    <audio data-key="76" src="./audio/B4.wav"></audio>
+    <audio data-key="186" src="./audio/C5.wav"></audio>
     <script src="./app.js"></script>
 </body>
+
 </html>
